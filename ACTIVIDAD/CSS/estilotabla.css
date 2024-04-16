@@ -1,0 +1,39 @@
+
+tr:nth-of-type(1) > th {
+    border-color: rgb(0, 0, 0);
+    background-color: lightblue;
+}
+
+header {
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+body {
+    background: darkgray;
+}
+
+tr:nth-of-type(2) > td,
+tr:nth-of-type(4) > td,
+tr:nth-of-type(5) > td,
+tr:nth-of-type(3) > th,
+tr:nth-of-type(6) > td {
+    background-color: rgb(208, 190, 224);
+    border-color:blue;
+}
+
+table {
+    position: relative;
+    width: 60%;
+    text-align: center;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    font-family: cursive;
+}
